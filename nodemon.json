@@ -1,0 +1,20 @@
+{
+  "verbose": true,
+  "ignore": [
+    "node_modules/*",
+    "bower_components/*",
+    "client/*",
+    "deploy/*",
+    "docs/*",
+    "public/*",
+    "resources/*",
+    "scripts/*"
+  ],
+  "watch": [
+    "server/*"
+  ],
+  "execMap": {
+    "js": "npm run eslint && node"
+  },
+  "ext": "js json"
+}

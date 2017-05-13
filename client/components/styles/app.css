@@ -1,0 +1,11 @@
+nav {
+  border-bottom: 1px solid #333;
+}
+
+nav a + a {
+  margin-left: 10px;
+}
+
+nav + section {
+  margin-top: 20px;
+}

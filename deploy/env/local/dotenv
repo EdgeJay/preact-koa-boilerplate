@@ -1,0 +1,14 @@
+NODE_ENV=development
+NODE_PORT=3000
+
+ASSETS_SERVER=localhost:3001
+
+# Webpack dev server
+# Comment out following line to disable webpack dev server
+USE_WEBPACK_DEV_SERVER=true
+WEBPACK_DEV_SERVER_URL=localhost:3001
+
+# KOA SESSION
+NODE_SECRET=727509da-e552-48d3-97ee-d55833424a27
+COOKIE_NAME="pkb.sid"
+SESSION_PREFIX="pkb:sess:"
